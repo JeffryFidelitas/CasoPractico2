@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using EventCorp.Models;
-using EventCorp.Services.Eventos;
-using EventCorp.Services.Categoria;
+using CoreLibrary.Services.Interfaces;
+using CoreLibrary.Models;
+using CoreLibrary.Models.ViewModels;
 
 namespace EventCorp.Controllers
 {
@@ -71,7 +67,7 @@ namespace EventCorp.Controllers
             }
 
             // Mapear al modelo real
-            var evento = new Evento
+            var evento = new EventoModel
             {
                 Titulo = model.Titulo,
                 Descripcion = model.Descripcion,
@@ -80,7 +76,7 @@ namespace EventCorp.Controllers
                 Hora = hora,
                 Duracion = model.Duracion,
                 Ubicacion = model.Ubicacion,
-                MaxAsistentes = model.MaxAsistentes,
+                CupoMaximo = model.MaxAsistentes,
                 FechaRegistro = DateTime.Now
             };
 
@@ -118,9 +114,9 @@ namespace EventCorp.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdEvento,Titulo,Descripcion,CategoriaId,Fecha,Hora,Duracion,Ubicacion,MaxAsistentes,FechaRegistro")] Evento evento)
+        public async Task<IActionResult> Edit(int id, [Bind("IdEvento,Titulo,Descripcion,CategoriaId,Fecha,Hora,Duracion,Ubicacion,MaxAsistentes,FechaRegistro")] EventoModel evento)
         {
-            if (id != evento.IdEvento)
+            if (id != evento.Id)
             {
                 return NotFound();
             }
@@ -129,11 +125,11 @@ namespace EventCorp.Controllers
             {
                 try
                 {
-                    await _eventoService.Modificar(evento);
+                    await _eventoService.Actualizar(evento);
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (! await EventoExists(evento.IdEvento))
+                    if (! await EventoExists(evento.Id))
                     {
                         return NotFound();
                     }
