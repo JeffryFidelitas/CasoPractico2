@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|solutionrelative:eventcorp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\views\\usuario\\gestionusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|solutionrelative:eventcorp\\views\\usuario\\gestionusuarios.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|solutionrelative:eventcorp\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\services\\interfaces\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\data\\eventcorpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\data\\eventcorpcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|solutionrelative:eventcorp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|solutionrelative:eventcorp\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\migrations\\eventcorpcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\migrations\\eventcorpcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\migrations\\20250418013127_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\migrations\\20250418013127_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -49,239 +17,67 @@
     {
       "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|solutionrelative:eventcorp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\eventcorp\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EDA6FC0-CF78-40A5-83C5-87B53ED683D0}|EventCorp\\EventCorp.csproj|solutionrelative:eventcorp\\controllers\\eventoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|c:\\users\\casti\\source\\repos\\jeffryfidelitas\\casopractico2\\eventcorp\\corelibrary\\services\\interfaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38E6B6A3-1CFD-43AA-BF97-52848A04F2B4}|CoreLibrary\\CoreLibrary.csproj|solutionrelative:corelibrary\\services\\interfaces\\ieventoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1113,
-          "SelectedChildIndex": 9,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Services\\UsuarioService.cs",
-              "RelativeDocumentMoniker": "CoreLibrary\\Services\\UsuarioService.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Services\\UsuarioService.cs",
-              "RelativeToolTip": "CoreLibrary\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:50:11.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionUsuarios.cshtml",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Views\\Usuario\\GestionUsuarios.cshtml",
-              "RelativeDocumentMoniker": "EventCorp\\Views\\Usuario\\GestionUsuarios.cshtml",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Views\\Usuario\\GestionUsuarios.cshtml",
-              "RelativeToolTip": "EventCorp\\Views\\Usuario\\GestionUsuarios.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T05:37:10.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IUsuarioService.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Services\\Interfaces\\IUsuarioService.cs",
-              "RelativeDocumentMoniker": "CoreLibrary\\Services\\Interfaces\\IUsuarioService.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Services\\Interfaces\\IUsuarioService.cs",
-              "RelativeToolTip": "CoreLibrary\\Services\\Interfaces\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T05:36:02.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventCorpContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Migrations\\EventCorpContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "CoreLibrary\\Migrations\\EventCorpContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Migrations\\EventCorpContextModelSnapshot.cs",
-              "RelativeToolTip": "CoreLibrary\\Migrations\\EventCorpContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:34:16.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250418013127_InitialCreate.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Migrations\\20250418013127_InitialCreate.Designer.cs",
-              "RelativeDocumentMoniker": "CoreLibrary\\Migrations\\20250418013127_InitialCreate.Designer.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Migrations\\20250418013127_InitialCreate.Designer.cs",
-              "RelativeToolTip": "CoreLibrary\\Migrations\\20250418013127_InitialCreate.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:34:13.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventCorpContext.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Data\\EventCorpContext.cs",
-              "RelativeDocumentMoniker": "CoreLibrary\\Data\\EventCorpContext.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Data\\EventCorpContext.cs",
-              "RelativeToolTip": "CoreLibrary\\Data\\EventCorpContext.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAmwDwAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T01:26:40.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "EventCorp\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "EventCorp\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAtwDkAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:23:20.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "CoreLibrary\\Models\\ViewModels\\LoginViewModel.cs",
               "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "CoreLibrary\\Models\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T00:21:52.113Z",
+              "WhenOpened": "2025-04-19T23:07:13.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Views\\Usuario\\Login.cshtml",
               "RelativeDocumentMoniker": "EventCorp\\Views\\Usuario\\Login.cshtml",
               "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Views\\Usuario\\Login.cshtml",
               "RelativeToolTip": "EventCorp\\Views\\Usuario\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T21:54:15.323Z",
+              "WhenOpened": "2025-04-19T22:46:23.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "EventCorp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "EventCorp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAADwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T21:38:50.602Z",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "EventCorp\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "EventCorp\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T22:44:14.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Program.cs",
-              "RelativeDocumentMoniker": "EventCorp\\Program.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Program.cs",
-              "RelativeToolTip": "EventCorp\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAmwDEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "CoreLibrary\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "CoreLibrary\\Models\\UsuarioModel.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowB4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:27:43.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "EventCorp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "EventCorp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:28:00.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "EventCorp\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "EventCorp\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAiwJgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T21:20:39.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CategoriaModel.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Models\\CategoriaModel.cs",
-              "RelativeDocumentMoniker": "CoreLibrary\\Models\\CategoriaModel.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Models\\CategoriaModel.cs",
-              "RelativeToolTip": "CoreLibrary\\Models\\CategoriaModel.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T19:43:09.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EventosController.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\EventosController.cs",
-              "RelativeDocumentMoniker": "EventCorp\\Controllers\\EventosController.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\Controllers\\EventosController.cs",
-              "RelativeToolTip": "EventCorp\\Controllers\\EventosController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAALEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:44:47.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IEventoService.cs",
-              "DocumentMoniker": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Services\\Interfaces\\IEventoService.cs",
-              "RelativeDocumentMoniker": "CoreLibrary\\Services\\Interfaces\\IEventoService.cs",
-              "ToolTip": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\CoreLibrary\\Services\\Interfaces\\IEventoService.cs",
-              "RelativeToolTip": "CoreLibrary\\Services\\Interfaces\\IEventoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T18:34:54.167Z",
+              "WhenOpened": "2025-04-19T22:43:07.627Z",
               "EditorCaption": ""
             }
           ]

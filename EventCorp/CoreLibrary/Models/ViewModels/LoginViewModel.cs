@@ -22,5 +22,8 @@ namespace CoreLibrary.Models.ViewModels
         [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{6,}$", ErrorMessage = "La contraseña debe contener al menos una letra mayúscula, una letra minúscula y un número.")]
         [Display(Name = "Contraseña")]
         public string Contrasena { get; set; }
+
+        [Display(Name = "Recordarme")]
+        public bool Recordarme { get; set; }
     }
 }

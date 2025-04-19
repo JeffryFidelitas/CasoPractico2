@@ -1,7 +1,7 @@
-﻿@model CoreLibrary.Models.ViewModels.LoginViewModel
+﻿@model CoreLibrary.Models.UsuarioModel
 
 @{
-    ViewData["Title"] = "Iniciar Sesión";
+	ViewData["Title"] = "Registro";
 	Layout = "~/Views/Shared/_LayoutAuth.cshtml";
 }
 
@@ -14,7 +14,7 @@
                     <a asp-action="Index" asp-controller="Home" class="text-decoration-none mb-3 mb-sm-0">
                         <h3 class="text-primary mb-0"><i class="fa fa-user-edit me-2"></i>DarkPan</h3>
                     </a>
-                    <h4 class="text-light mb-0">Iniciar Sesión</h4>
+                    <h4 class="text-light mb-0">Registro</h4>
                 </div>
 
                 @if (!ViewData.ModelState.IsValid)
@@ -30,31 +30,42 @@
                     }
                 }
 
-                <form asp-action="Login" method="post">
+                <form asp-action="Registro" method="post">
+
+                    <div class="form-floating mb-3">
+                        <input type="text" asp-for="NombreUsuario" class="form-control" id="floatingInput" placeholder="Nombre Usuario">
+                        <label asp-for="NombreUsuario"></label>
+                        <span asp-validation-for="NombreUsuario" class="text-danger small"></span>
+                    </div>
+
+					<div class="form-floating mb-3">
+						<input type="text" asp-for="NombreCompleto" class="form-control" id="floatingInput" placeholder="Nombre Completo">
+						<label asp-for="NombreCompleto"></label>
+						<span asp-validation-for="NombreCompleto" class="text-danger small"></span>
+					</div>
+
                     <div class="form-floating mb-3">
                         <input type="email" asp-for="Correo" class="form-control" id="floatingInput" placeholder="Correo electrónico">
-                        <label asp-for="Correo">Correo electrónico</label>
+                        <label asp-for="Correo"></label>
                         <span asp-validation-for="Correo" class="text-danger small"></span>
                     </div>
 
+					<div class="form-floating mb-3">
+						<input type="text" asp-for="Telefono" class="form-control" id="floatingInput" placeholder="Teléfono">
+						<label asp-for="Telefono"></label>
+						<span asp-validation-for="Telefono" class="text-danger small"></span>
+					</div>
+
                     <div class="form-floating mb-4">
                         <input type="password" asp-for="Contrasena" class="form-control" id="floatingPassword" placeholder="Contraseña">
-                        <label asp-for="Contrasena">Contraseña</label>
+                        <label asp-for="Contrasena"></label>
                         <span asp-validation-for="Contrasena" class="text-danger small"></span>
-                    </div>
-
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                        <div class="form-check">
-                            <input asp-for="Recordarme" type="checkbox" class="form-check-input" id="rememberMe" />
-                            <label asp-for="Recordarme" class="form-check-label text-light"></label>
-                        </div>
-                        <a href="#" class="text-decoration-none small text-primary">¿Olvidaste tu contraseña?</a>
                     </div>
 
                     <button type="submit" class="btn btn-primary py-3 w-100 mb-3">Ingresar</button>
 
                     <p class="text-center text-light small mb-0">
-                        ¿No tienes una cuenta? <a asp-action="Registro" class="text-primary text-decoration-none">Regístrate</a>
+                        ¿Ya tienes una cuenta? <a asp-action="Login" class="text-primary text-decoration-none">Iniciar Sesión</a>
                     </p>
                 </form>
             </div>
