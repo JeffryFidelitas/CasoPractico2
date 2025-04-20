@@ -1,0 +1,28 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Binarios y objetos compilados
+bin/
+obj/
+
+# Archivos de publicación
+*.publish.xml
+
+# Archivos de dependencias
+packages/
+*.nupkg
+
+# Archivos temporales
+*.tmp
+*.log
+
+# Base de datos local
+*.mdf
+*.ldf
+*.db
+
+# Archivos personales de configuración
+*.vscode
+*.sln.docstates
