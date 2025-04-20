@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/EventCorp/CodigoPersonalizado/GestionUsuarios.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodigoPersonalizado\GestionUsuarios.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-raAS/JZ2kpSa\u002BVHkQzMriaqw2qouNG8iY6JXjMHBcu8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3994"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022raAS/JZ2kpSa\u002BVHkQzMriaqw2qouNG8iY6JXjMHBcu8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 01:08:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/EventCorp/CodigoPersonalizado/GestionUsuarios.njl5bq9htl.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodigoPersonalizado\GestionUsuarios.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"njl5bq9htl"},{"Name":"integrity","Value":"sha256-raAS/JZ2kpSa\u002BVHkQzMriaqw2qouNG8iY6JXjMHBcu8="},{"Name":"label","Value":"_content/EventCorp/CodigoPersonalizado/GestionUsuarios.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3994"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022raAS/JZ2kpSa\u002BVHkQzMriaqw2qouNG8iY6JXjMHBcu8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 20 Apr 2025 01:08:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/EventCorp/EventCorp.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\EventCorp.nay3h9u2fj.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

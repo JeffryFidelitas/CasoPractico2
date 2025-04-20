@@ -1,4 +1,6 @@
-﻿using CoreLibrary.Data;
+﻿using System.Web.Mvc;
+using CoreLibrary.Auth;
+using CoreLibrary.Data;
 using CoreLibrary.Models;
 using CoreLibrary.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +19,19 @@ namespace CoreLibrary.Services
         }
 
         #region Consultas
+
+        // Obtener un selectList de los roles
+        public List<SelectListItem> ObtenerRoles()
+        {
+            return Enum.GetValues(typeof(RolesEnum))
+                .Cast<RolesEnum>()
+                .Select(r => new SelectListItem
+                {
+                    Value = ((int)r).ToString(),
+                    Text = r.ToString()
+                })
+                .ToList();
+        }
 
         public async Task<List<UsuarioModel>> ObtenerTodos()
         {
@@ -93,7 +108,25 @@ namespace CoreLibrary.Services
         {
             try
             {
-                _context.Update(usuario);
+                var usuarioExistente = await _context.Usuarios.FindAsync(usuario.Id);
+                if (usuarioExistente == null)
+                {
+                    return false;
+                }
+
+                usuarioExistente.NombreUsuario = usuario.NombreUsuario;
+                usuarioExistente.NombreCompleto = usuario.NombreCompleto;
+                usuarioExistente.Telefono = usuario.Telefono;
+                usuarioExistente.Correo = usuario.Correo;
+                usuarioExistente.Rol = usuario.Rol;
+
+                // Solo actualiza la contraseña si viene con un valor nuevo
+                if (!string.IsNullOrWhiteSpace(usuario.Contrasena) &&
+                    usuario.Contrasena != usuarioExistente.Contrasena)
+                {
+                    usuarioExistente.Contrasena = usuario.Contrasena;
+                }
+
                 await _context.SaveChangesAsync();
                 return true;
             }

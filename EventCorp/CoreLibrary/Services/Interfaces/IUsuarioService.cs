@@ -1,10 +1,12 @@
-﻿using CoreLibrary.Models;
+﻿using System.Web.Mvc;
+using CoreLibrary.Models;
 
 namespace CoreLibrary.Services.Interfaces
 {
     public interface IUsuarioService
     {
         #region Consultas
+        List<SelectListItem> ObtenerRoles();
         Task<List<UsuarioModel>> ObtenerTodos();
         Task<UsuarioModel?> ObtenerPorId(int id);
         Task<UsuarioModel?> ObtenerPorCorreo(string correo);

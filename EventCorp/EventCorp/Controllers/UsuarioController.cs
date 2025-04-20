@@ -17,6 +17,7 @@ namespace EventCorp.Controllers
         {
             _usuarioService = usuarioService;
         }
+
         #region Autenticacion
 
         [HttpGet]
@@ -88,6 +89,62 @@ namespace EventCorp.Controllers
         {
             var usuarios = await _usuarioService.ObtenerTodos();
             return View(usuarios);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EditarUsuario(int id)
+        {
+            // Cargar los roles como una selectList
+            var usuario = await _usuarioService.ObtenerPorId(id);
+            if (usuario == null)
+            {
+                return NotFound(new { mensaje = "Usuario no encontrado" });
+            }
+
+            return Ok(usuario);
+        }
+
+        [HttpGet]
+        public IActionResult ObtenerRoles()
+        {
+            var roles = Enum.GetValues(typeof(RolesEnum))
+                            .Cast<RolesEnum>()
+                            .Select(r => new { Id = (int)r, Name = r.ToString() })
+                            .ToList();
+
+            return Json(roles);
+        }
+        [HttpPost]
+        public async Task<IActionResult> ActualizarUsuario(UsuarioModel usuario)
+        {
+            ModelState.Remove("Contrasena");
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(new { mensaje = "Datos inválidos", errores = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
+            }
+
+            var usuarioExistente = await _usuarioService.ObtenerPorId(usuario.Id);
+            if (usuarioExistente == null)
+            {
+                return NotFound(new { mensaje = "Usuario no encontrado" });
+            }
+
+            await _usuarioService.Actualizar(usuario);
+
+            return Ok(new { mensaje = "Usuario actualizado con éxito" });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> EliminarUsuario(int id)
+        {
+            var usuario = await _usuarioService.ObtenerPorId(id);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+            await _usuarioService.Eliminar(id);
+            return RedirectToAction("GestionUsuarios");
         }
         #endregion
 

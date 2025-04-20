@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pAaEElDM2t2ziR/97wL47Zuhdz70Tz07in6DL4iAVxY=",
+  "Hash": "wZpe/YnIWxvaBo4gNu3PzbqbOqpODmQcFO9PGZDsAl8=",
   "Source": "EventCorp",
   "BasePath": "_content/EventCorp",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EventCorp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\CodigoPersonalizado\\GestionUsuarios.js",
+      "SourceId": "EventCorp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\",
+      "BasePath": "_content/EventCorp",
+      "RelativePath": "CodigoPersonalizado/GestionUsuarios#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "njl5bq9htl",
+      "Integrity": "raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CodigoPersonalizado\\GestionUsuarios.js"
     },
     {
       "Identity": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\favicon.ico",
@@ -669,6 +690,88 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "CodigoPersonalizado/GestionUsuarios.js",
+      "AssetFile": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\CodigoPersonalizado\\GestionUsuarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 01:08:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8="
+        }
+      ]
+    },
+    {
+      "Route": "CodigoPersonalizado/GestionUsuarios.njl5bq9htl.js",
+      "AssetFile": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\CodigoPersonalizado\\GestionUsuarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 01:08:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njl5bq9htl"
+        },
+        {
+          "Name": "label",
+          "Value": "CodigoPersonalizado/GestionUsuarios.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8="
+        }
+      ]
+    },
     {
       "Route": "EventCorp.bundle.scp.css",
       "AssetFile": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EventCorp.bundle.scp.css",

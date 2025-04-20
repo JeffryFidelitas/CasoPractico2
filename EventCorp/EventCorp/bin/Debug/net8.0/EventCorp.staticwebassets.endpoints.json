@@ -3,6 +3,88 @@
   "ManifestType": "Build",
   "Endpoints": [
     {
+      "Route": "CodigoPersonalizado/GestionUsuarios.js",
+      "AssetFile": "CodigoPersonalizado/GestionUsuarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 01:08:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8="
+        }
+      ]
+    },
+    {
+      "Route": "CodigoPersonalizado/GestionUsuarios.njl5bq9htl.js",
+      "AssetFile": "CodigoPersonalizado/GestionUsuarios.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 20 Apr 2025 01:08:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njl5bq9htl"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-raAS/JZ2kpSa+VHkQzMriaqw2qouNG8iY6JXjMHBcu8="
+        },
+        {
+          "Name": "label",
+          "Value": "CodigoPersonalizado/GestionUsuarios.js"
+        }
+      ]
+    },
+    {
       "Route": "EventCorp.nay3h9u2fj.styles.css",
       "AssetFile": "EventCorp.styles.css",
       "Selectors": [],

@@ -1,3 +1,4 @@
+wwwroot\CodigoPersonalizado\GestionUsuarios.js
 wwwroot\favicon.ico
 wwwroot\Template\css\bootstrap.min.css
 wwwroot\Template\css\style.css
