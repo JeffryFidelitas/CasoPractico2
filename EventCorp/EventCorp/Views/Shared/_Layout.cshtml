@@ -78,11 +78,11 @@
 								<i class="fa fa-users me-2"></i>Gestión de Usuarios
 							</a>
 
-							<a asp-controller="Categoria" asp-action="Index" class="nav-item nav-link">
+							<a asp-controller="Categorias" asp-action="Index" class="nav-item nav-link">
 								<i class="fa fa-tags me-2"></i>Gestión de Categorías
 							</a>
 
-							<a asp-controller="Evento" asp-action="Index" class="nav-item nav-link">
+							<a asp-controller="Eventos" asp-action="Index" class="nav-item nav-link">
 								<i class="fa fa-calendar-alt me-2"></i>Gestión de Eventos
 							</a>
 						}
@@ -171,10 +171,12 @@
 	<script src="~/Template/lib/tempusdominus/js/moment-timezone.min.js"></script>
 	<script src="~/Template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-	@RenderSection("Scripts", required: false)
 
 	<!-- Template Javascript -->
 	<script src="~/Template/js/main.js"></script>
+
+	@RenderSection("Scripts", required: false)
+
 </body>
 
 </html>

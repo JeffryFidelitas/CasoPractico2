@@ -74,8 +74,8 @@ namespace CoreLibrary.Data
                     new UsuarioModel
                     {
                         Id = 3,
-                        NombreUsuario = "usuario1",
-                        NombreCompleto = "Usuario1 Regular",
+                        NombreUsuario = "usuarioUNO",
+                        NombreCompleto = "UsuarioUNO Regular",
                         Correo = "usuario1@eventcorp.com",
                         Telefono = "+50666666666",
                         Contrasena = "Usuario123",
@@ -84,8 +84,8 @@ namespace CoreLibrary.Data
                     new UsuarioModel
                     {
                         Id = 4,
-                        NombreUsuario = "usuario2",
-                        NombreCompleto = "Usuario2 Regular",
+                        NombreUsuario = "usuarioDOS",
+                        NombreCompleto = "UsuarioDOS Regular",
                         Correo = "usuario2@eventcorp.com",
                         Telefono = "+50666666664",
                         Contrasena = "Usuario123",
@@ -102,7 +102,7 @@ namespace CoreLibrary.Data
                         Nombre = "Conferencia",
                         Descripcion = "Eventos de tipo conferencia.",
                         Estado = true,
-                        FechaRegistro = DateTime.Now,
+                        FechaRegistro = new DateTime(2025, 5, 20),
                         UsuarioRegistroId = 1
                     },
                     new CategoriaModel
@@ -111,7 +111,7 @@ namespace CoreLibrary.Data
                         Nombre = "Taller",
                         Descripcion = "Eventos de tipo taller.",
                         Estado = true,
-                        FechaRegistro = DateTime.Now,
+                        FechaRegistro = new DateTime(2025, 5, 10),
                         UsuarioRegistroId = 1
                     }
                 );

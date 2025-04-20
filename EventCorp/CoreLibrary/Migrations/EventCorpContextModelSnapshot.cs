@@ -17,7 +17,7 @@ namespace CoreLibrary.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.15")
+                .HasAnnotation("ProductVersion", "9.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -61,7 +61,7 @@ namespace CoreLibrary.Migrations
                             IdCategoria = 1,
                             Descripcion = "Eventos de tipo conferencia.",
                             Estado = true,
-                            FechaRegistro = new DateTime(2025, 4, 17, 19, 31, 26, 878, DateTimeKind.Local).AddTicks(6649),
+                            FechaRegistro = new DateTime(2025, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Nombre = "Conferencia",
                             UsuarioRegistroId = 1
                         },
@@ -70,7 +70,7 @@ namespace CoreLibrary.Migrations
                             IdCategoria = 2,
                             Descripcion = "Eventos de tipo taller.",
                             Estado = true,
-                            FechaRegistro = new DateTime(2025, 4, 17, 19, 31, 26, 878, DateTimeKind.Local).AddTicks(6651),
+                            FechaRegistro = new DateTime(2025, 5, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Nombre = "Taller",
                             UsuarioRegistroId = 1
                         });
@@ -264,8 +264,8 @@ namespace CoreLibrary.Migrations
                             Id = 3,
                             Contrasena = "Usuario123",
                             Correo = "usuario1@eventcorp.com",
-                            NombreCompleto = "Usuario1 Regular",
-                            NombreUsuario = "usuario1",
+                            NombreCompleto = "UsuarioUNO Regular",
+                            NombreUsuario = "usuarioUNO",
                             Rol = 3,
                             Telefono = "+50666666666"
                         },
@@ -274,8 +274,8 @@ namespace CoreLibrary.Migrations
                             Id = 4,
                             Contrasena = "Usuario123",
                             Correo = "usuario2@eventcorp.com",
-                            NombreCompleto = "Usuario2 Regular",
-                            NombreUsuario = "usuario2",
+                            NombreCompleto = "UsuarioDOS Regular",
+                            NombreUsuario = "usuarioDOS",
                             Rol = 3,
                             Telefono = "+50666666664"
                         });
