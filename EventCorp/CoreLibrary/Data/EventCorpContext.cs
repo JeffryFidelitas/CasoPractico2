@@ -11,6 +11,8 @@ namespace CoreLibrary.Data
         public DbSet<CategoriaModel> Categorias { get; set; }
         public DbSet<EventoModel> Eventos { get; set; }
         public DbSet<ErrorLog> Errores { get; set; }
+        public DbSet<InscripcionModel> Inscripciones { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             #region Relaciones
@@ -44,6 +46,17 @@ namespace CoreLibrary.Data
                 .HasForeignKey(e => e.UsuarioId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<InscripcionModel>()
+                .HasOne(i => i.Usuario)
+                .WithMany(u => u.Inscripciones) // Si tienes esta colección en UsuarioModel
+                .HasForeignKey(i => i.UsuarioId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<InscripcionModel>()
+                .HasOne(i => i.Evento)
+                .WithMany(e => e.Inscripciones) // Ya tienes esta colección en EventoModel
+                .HasForeignKey(i => i.EventoId)
+                .OnDelete(DeleteBehavior.Restrict);
             #endregion
 
             #region Datos Iniciales

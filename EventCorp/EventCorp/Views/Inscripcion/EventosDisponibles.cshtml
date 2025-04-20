@@ -1,0 +1,40 @@
+﻿@model IEnumerable<EventoModel>
+@{
+    ViewData["Title"] = "Eventos Disponibles";
+}
+
+<h1>Eventos Disponibles</h1>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div class="row">
+    @foreach (var evento in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title text-dark">@evento.Titulo</h5>
+                </div>
+                <div class="card-body">
+                    <p><strong>Fecha:</strong> @evento.Fecha.ToShortDateString()</p>
+                    <p><strong>Hora:</strong> @evento.Hora.ToString(@"hh\:mm")</p>
+                    <p><strong>Duración:</strong> @evento.Duracion minutos</p>
+                    <p><strong>Ubicación:</strong> @evento.Ubicacion</p>
+                    <p><strong>Cupo:</strong> @evento.CupoMaximo</p>
+                    <p>@evento.Descripcion</p>
+
+                    <form asp-action="Inscribirse" method="post">
+                        @Html.AntiForgeryToken()
+                        <input type="hidden" name="eventoId" value="@evento.Id" />
+                        <button type="submit" class="btn btn-primary">Inscribirse</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>

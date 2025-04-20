@@ -1,0 +1,36 @@
+﻿@model IEnumerable<EventoModel>
+@{
+    ViewData["Title"] = "Todos los Eventos";
+}
+
+<h1>Administración de Eventos</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Categoría</th>
+            <th>Fecha</th>
+            <th>Hora</th>
+            <th>Cupo Máximo</th>
+            <th>Organizador</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var evento in Model)
+        {
+            <tr>
+                <td>@evento.Titulo</td>
+                <td>@(evento.Categoria?.Nombre ?? "Sin categoría")</td>
+                <td>@evento.Fecha.ToShortDateString()</td>
+                <td>@evento.Hora.ToString(@"hh\:mm")</td>
+                <td>@evento.CupoMaximo</td>
+                <td>@(evento.UsuarioRegistro?.NombreCompleto ?? "No disponible")</td>
+                <td>
+                    <a asp-action="AsistentesPorEvento" asp-route-eventoId="@evento.Id" class="btn btn-sm btn-info">Ver asistentes</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

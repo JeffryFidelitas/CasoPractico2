@@ -1,0 +1,91 @@
+﻿@model IEnumerable<InscripcionModel>
+@{
+    ViewData["Title"] = "Asistentes";
+    var evento = (EventoModel)ViewBag.Evento;
+}
+
+<h1>Asistentes para: @evento.Titulo</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<div class="card mb-4">
+    <div class="card-header">
+        <h5>Detalles del Evento</h5>
+    </div>
+    <div class="card-body">
+        <p><strong>Fecha:</strong> @evento.Fecha.ToShortDateString()</p>
+        <p><strong>Hora:</strong> @evento.Hora.ToString(@"hh\:mm")</p>
+        <p><strong>Duración:</strong> @evento.Duracion minutos</p>
+        <p><strong>Ubicación:</strong> @evento.Ubicacion</p>
+        <p><strong>Cupo máximo:</strong> @evento.CupoMaximo</p>
+        <p><strong>Inscritos:</strong> @Model.Count()</p>
+    </div>
+</div>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Correo</th>
+                <th>Teléfono</th>
+                <th>Fecha de inscripción</th>
+                <th>Asistencia</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var inscripcion in Model)
+            {
+                <tr>
+                    <td>@inscripcion.Usuario.NombreCompleto</td>
+                    <td>@inscripcion.Usuario.Correo</td>
+                    <td>@inscripcion.Usuario.Telefono</td>
+                    <td>@inscripcion.FechaInscripcion.ToString("dd/MM/yyyy HH:mm")</td>
+                    <td>
+                        @if (inscripcion.Asistio)
+                        {
+                            <span class="badge badge-success">Asistió</span>
+                        }
+                        else
+                        {
+                            <span class="badge badge-warning">Pendiente</span>
+                        }
+                    </td>
+                    <td>
+                        <form asp-action="MarcarAsistencia" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="inscripcionId" value="@inscripcion.Id" />
+                            <input type="hidden" name="eventoId" value="@evento.Id" />
+
+                            @if (inscripcion.Asistio)
+                            {
+                                <input type="hidden" name="asistio" value="false" />
+                                <button type="submit" class="btn btn-sm btn-warning">Desmarcar asistencia</button>
+                            }
+                            else
+                            {
+                                <input type="hidden" name="asistio" value="true" />
+                                <button type="submit" class="btn btn-sm btn-success">Marcar asistencia</button>
+                            }
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a asp-action="Index" asp-controller="Eventos" class="btn btn-secondary">Volver a Eventos</a>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<InscripcionModel>
+@{
+    ViewData["Title"] = "Mis Eventos";
+}
+
+<h1>Mis Eventos</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        No estás inscrito en ningún evento.
+        <a asp-action="EventosDisponibles">Ver eventos disponibles</a>
+    </div>
+}
+else
+{
+    <div class="row">
+        @foreach (var inscripcion in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title text-dark">@inscripcion.Evento.Titulo</h5>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Fecha:</strong> @inscripcion.Evento.Fecha.ToShortDateString()</p>
+                        <p><strong>Hora:</strong> @inscripcion.Evento.Hora.ToString(@"hh\:mm")</p>
+                        <p><strong>Duración:</strong> @inscripcion.Evento.Duracion minutos</p>
+                        <p><strong>Ubicación:</strong> @inscripcion.Evento.Ubicacion</p>
+                        <p><strong>Fecha de inscripción:</strong> @inscripcion.FechaInscripcion.ToString("dd/MM/yyyy HH:mm")</p>
+
+                        <form asp-action="CancelarInscripcion" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="inscripcionId" value="@inscripcion.Id" />
+                            <button type="submit" class="btn btn-danger" onclick="return confirm('¿Estás seguro de cancelar tu inscripción?')">Cancelar inscripción</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

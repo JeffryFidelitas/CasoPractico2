@@ -1,127 +1,127 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EventCorp.bundle.scp.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EventCorp.bundle.scp.css",
       "PackagePath": "staticwebassets\\EventCorp.nay3h9u2fj.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\CodigoPersonalizado\\GestionUsuarios.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\CodigoPersonalizado\\GestionUsuarios.js",
       "PackagePath": "staticwebassets\\CodigoPersonalizado\\GestionUsuarios.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\Template\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\css\\style.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\css\\style.css",
       "PackagePath": "staticwebassets\\Template\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\img\\testimonial-1.jpg",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\Template\\img\\testimonial-1.jpg"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\img\\testimonial-2.jpg",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\img\\testimonial-2.jpg",
       "PackagePath": "staticwebassets\\Template\\img\\testimonial-2.jpg"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\img\\user.jpg",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\img\\user.jpg",
       "PackagePath": "staticwebassets\\Template\\img\\user.jpg"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\js\\main.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\js\\main.js",
       "PackagePath": "staticwebassets\\Template\\js\\main.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\chart\\chart.min.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\chart\\chart.min.js",
       "PackagePath": "staticwebassets\\Template\\lib\\chart\\chart.min.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\easing\\easing.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\easing\\easing.js",
       "PackagePath": "staticwebassets\\Template\\lib\\easing\\easing.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\easing\\easing.min.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\easing\\easing.min.js",
       "PackagePath": "staticwebassets\\Template\\lib\\easing\\easing.min.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\LICENSE",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\LICENSE",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\ajax-loader.gif",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\ajax-loader.gif"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.carousel.css",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\owl.carousel.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.default.css",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\owl.theme.default.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.green.css",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\owl.theme.green.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\assets\\owl.video.play.png",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\assets\\owl.video.play.png"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\owl.carousel.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\owl.carousel.js",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\owl.carousel.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\owl.carousel.min.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\owlcarousel\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\Template\\lib\\owlcarousel\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
       "PackagePath": "staticwebassets\\Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
       "PackagePath": "staticwebassets\\Template\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\moment-timezone.min.js",
       "PackagePath": "staticwebassets\\Template\\lib\\tempusdominus\\js\\moment-timezone.min.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\moment.min.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\moment.min.js",
       "PackagePath": "staticwebassets\\Template\\lib\\tempusdominus\\js\\moment.min.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
       "PackagePath": "staticwebassets\\Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
       "PackagePath": "staticwebassets\\Template\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\waypoints\\links.php",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\waypoints\\links.php",
       "PackagePath": "staticwebassets\\Template\\lib\\waypoints\\links.php"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\waypoints\\waypoints.min.js",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\Template\\lib\\waypoints\\waypoints.min.js",
       "PackagePath": "staticwebassets\\Template\\lib\\waypoints\\waypoints.min.js"
     },
     {
-      "Id": "C:\\Users\\casti\\source\\repos\\JeffryFidelitas\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\bryan\\Source\\Repos\\CasoPractico2\\EventCorp\\EventCorp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {

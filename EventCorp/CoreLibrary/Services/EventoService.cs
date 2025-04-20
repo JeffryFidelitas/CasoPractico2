@@ -39,6 +39,7 @@ namespace CoreLibrary.Services
             {
                 return await _context.Eventos
                     .Include(c => c.Categoria)
+                    .Include(e => e.UsuarioRegistro) // Agregar esta línea
                     .ToListAsync();
             }
             catch (Exception ex)

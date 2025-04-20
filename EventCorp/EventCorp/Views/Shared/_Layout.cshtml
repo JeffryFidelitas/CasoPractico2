@@ -85,19 +85,32 @@
 							<a asp-controller="Eventos" asp-action="Index" class="nav-item nav-link">
 								<i class="fa fa-calendar-alt me-2"></i>Gestión de Eventos
 							</a>
+
+							<!-- Enlace para administradores - Ver todos los eventos con sus asistentes -->
+							<a asp-controller="Inscripcion" asp-action="TodosLosEventos" class="nav-item nav-link">
+								<i class="fa fa-users-cog me-2"></i>Administrar Eventos
+							</a>
 						}
 						else if (rol == RolesEnum.Organizador.ToString())
 						{
-							<a asp-controller="Evento" asp-action="MisEventos" class="nav-item nav-link">
+							<a asp-controller="Eventos" asp-action="Index" class="nav-item nav-link">
 								<i class="fa fa-calendar me-2"></i>Mis Eventos
 							</a>
-						}
-						else if (rol == RolesEnum.Usuario.ToString())
-						{
-							<a asp-controller="Evento" asp-action="EventosDisponibles" class="nav-item nav-link">
-								<i class="fa fa-calendar-check me-2"></i>Eventos Disponibles
+
+							<!-- Enlace para organizadores - Ver asistentes de sus eventos -->
+							<a asp-controller="Inscripcion" asp-action="MisEventosOrganizados" class="nav-item nav-link">
+								<i class="fa fa-user-check me-2"></i>Asistentes a Mis Eventos
 							</a>
 						}
+
+						<!-- Enlaces para todos los usuarios -->
+						<a asp-controller="Inscripcion" asp-action="EventosDisponibles" class="nav-item nav-link">
+							<i class="fa fa-calendar-check me-2"></i>Eventos Disponibles
+						</a>
+
+						<a asp-controller="Inscripcion" asp-action="MisEventos" class="nav-item nav-link">
+							<i class="fa fa-ticket-alt me-2"></i>Mis Inscripciones
+						</a>
 					</div>
 				}
 			</nav>
@@ -143,10 +156,10 @@
 				<div class="bg-secondary rounded-top p-4">
 					<div class="row">
 						<div class="col-12 col-sm-6 text-center text-sm-start">
-							&copy; <a href="#">Your Site Name</a>, All Right Reserved.
+							&copy; <a href="#">EventCorp</a>, All Right Reserved.
 						</div>
 						<div class="col-12 col-sm-6 text-center text-sm-end">
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+							<!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
 							Designed By <a href="https://htmlcodex.com">HTML Codex</a>
 							<br>Distributed By: <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
 						</div>

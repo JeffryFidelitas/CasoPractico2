@@ -1,0 +1,45 @@
+﻿@model IEnumerable<InscripcionModel>
+@{
+    ViewData["Title"] = "Eventos Organizados";
+    // Agrupar inscripciones por evento
+    var inscripcionesPorEvento = Model.GroupBy(i => i.EventoId);
+}
+
+<h1>Mis Eventos Organizados</h1>
+
+@foreach (var grupo in inscripcionesPorEvento)
+{
+    var primerInscripcion = grupo.First();
+    var evento = primerInscripcion.Evento;
+    var totalInscritos = grupo.Count();
+
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5>@evento.Titulo</h5>
+                <h6 class="text-muted">@evento.Categoria.Nombre</h6>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>Fecha:</strong> @evento.Fecha.ToShortDateString()</p>
+                        <p><strong>Hora:</strong> @evento.Hora.ToString(@"hh\:mm")</p>
+                        <p><strong>Duración:</strong> @evento.Duracion minutos</p>
+                        <p><strong>Ubicación:</strong> @evento.Ubicacion</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>Cupo máximo:</strong> @evento.CupoMaximo</p>
+                        <p><strong>Inscritos:</strong> @totalInscritos</p>
+                        <p><strong>Disponibles:</strong> @(evento.CupoMaximo - totalInscritos)</p>
+                        <a asp-action="AsistentesPorEvento" asp-route-eventoId="@evento.Id" class="btn btn-primary">Ver asistentes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+}
+
+@if (!inscripcionesPorEvento.Any())
+{
+        <div class="alert alert-info">
+            No has organizado ningún evento aún.
+        </div>
+}

@@ -55,5 +55,7 @@ namespace CoreLibrary.Models
         public int UsuarioRegistroId { get; set; }
 
         public UsuarioModel UsuarioRegistro { get; set; }
+
+        public ICollection<InscripcionModel> Inscripciones { get; set; } = new List<InscripcionModel>();
     }
 }

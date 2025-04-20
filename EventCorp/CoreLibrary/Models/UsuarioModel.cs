@@ -44,5 +44,6 @@ namespace CoreLibrary.Models
         public ICollection<CategoriaModel> CategoriasRegistradas { get; set; } = new List<CategoriaModel>();
         public ICollection<EventoModel> EventosRegistrados { get; set; } = new List<EventoModel>();
         public ICollection<ErrorLog> Errores { get; set; } = new List<ErrorLog>();
+        public ICollection<InscripcionModel> Inscripciones { get; set; } = new List<InscripcionModel>();
     }
 }
