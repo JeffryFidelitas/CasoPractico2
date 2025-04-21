@@ -24,6 +24,7 @@ namespace CoreLibrary.Services
             {
                 return await _context.Eventos
                     .Include(c => c.Categoria)
+                    .Include(e => e.UsuarioRegistro) // Agregar esta línea
                     .FirstOrDefaultAsync(c => c.Id == id);
             }
             catch (Exception ex)
