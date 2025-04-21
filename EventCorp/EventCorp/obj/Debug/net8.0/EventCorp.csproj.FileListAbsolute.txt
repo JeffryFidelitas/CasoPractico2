@@ -857,3 +857,4 @@ C:\Users\bryan\Source\Repos\CasoPractico2\EventCorp\EventCorp\obj\Debug\net8.0\E
 C:\Users\bryan\Source\Repos\CasoPractico2\EventCorp\EventCorp\obj\Debug\net8.0\EventCorp.genruntimeconfig.cache
 C:\Users\bryan\Source\Repos\CasoPractico2\EventCorp\EventCorp\obj\Debug\net8.0\ref\EventCorp.dll
 C:\Users\bryan\Source\Repos\CasoPractico2\EventCorp\EventCorp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\casti\source\repos\JeffryFidelitas\CasoPractico2\EventCorp\EventCorp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
